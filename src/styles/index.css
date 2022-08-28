@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#root {
+    min-width: 50vw;
+}
+
+.without-ring {
+    @apply focus:ring-0 focus:ring-offset-0;
+  }
